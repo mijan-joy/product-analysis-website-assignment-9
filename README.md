@@ -1,6 +1,6 @@
-# **`Book Review Site`**
+# **`Product Review Site`**
 
-Click the link: [Book Review Site](https://github.com/facebook/create-react-app).
+Live site https://lively-horse-e9a258.netlify.app/
 
 ## Included Features in this project
 
