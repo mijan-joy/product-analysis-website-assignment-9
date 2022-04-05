@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "name": "Leanne Graham",
+    "name": "Musa khandokar",
     "username": "Bret",
-    "ratings": 5,
+    "ratings": 4.0,
     "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/35cc643a-3d48-417e-82a7-cb671b4d5516._CR41,0,418,418_SX48_.jpg",
     "review": "I previously wrote this review right after reading the book. Today, February 15th, after applying James’s system for 100 days on a few tiny habits, I feel compelled to share updates with you because they have sincerely worked."
   },
   {
     "id": 2,
-    "name": "Ervin Howell",
+    "name": "Angela Markel",
     "username": "Antonette",
-    "ratings": 5,
+    "ratings": 4.5,
     "img": "https://jamesclear.com/wp-content/uploads/2020/11/square-1.png",
     "review": "I've read a lot of books on changing behavior and building habits and James Clear's Atomic Habits is my new favorite. This book is different from others in the way it covers an enormous amount of ground in the larger area of self-improvement while seamlessly tying all these ideas back into the central theme of habits."
   },
   {
     "id": 3,
-    "name": "Clementine Bauch",
+    "name": "Kabirul Islam",
     "username": "Samantha",
     "ratings": 4.7,
     "img": "https://jamesclear.com/wp-content/uploads/2020/11/square.png",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "Patricia Lebsack",
+    "name": "Saiful Islam",
     "username": "Karianne",
     "ratings": 4.8,
     "img": "https://jamesclear.com/wp-content/uploads/2022/01/Brene-copy-small.png",

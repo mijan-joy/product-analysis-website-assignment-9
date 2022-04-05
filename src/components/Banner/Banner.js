@@ -12,11 +12,9 @@ const Banner = () => {
                 Online Payment Easy For You.
               </h2>
               <p className="main-hero-para">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et,
-                quia quis? Ipsa officia ad deserunt voluptate quam, nisi odio
-                officiis tempora recusandae voluptate quam, nisi odio officiis
-                tempora recusandae
+              An e-payment system is a way of making transactions or paying for goods and services through an electronic medium, without the use of checks or cash.
               </p>
+              <button className="btn btn-warning mt-0">Learn More</button>
           
               
             </div>
