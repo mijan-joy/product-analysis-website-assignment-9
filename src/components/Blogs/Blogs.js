@@ -21,23 +21,7 @@ const Blogs = () => {
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>
-            Question #2 : What is Context api?
-          </Accordion.Header>
-          <Accordion.Body>
-            <strong>
-            This is the
-            alternative to "prop drilling" or moving props from grandparent to
-            child to parent, and so on
-            </strong>{" "} <br />
-            The React Context API is a way for a React app to effectively
-            produce global variables that can be passed around. This is the
-            alternative to "prop drilling" or moving props from grandparent to
-            child to parent, and so on. <br /> Context Api, allows us to pass data through our component trees,
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="2">
-          <Accordion.Header>
-            Question #3 Inline and block level Elements
+          Question #3 Inline and block level Elements
           </Accordion.Header>
           <Accordion.Body>
             <strong>Inline Elements and Inline Block Elements.</strong> <br /> i. Block
@@ -49,6 +33,7 @@ const Blogs = () => {
             padding, etc.
           </Accordion.Body>
         </Accordion.Item>
+       
       </Accordion>
     </div>
   );

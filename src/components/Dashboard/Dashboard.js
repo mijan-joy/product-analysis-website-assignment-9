@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from "react";
 import {
-  Area,
-  AreaChart,
   Bar,
   BarChart,
   CartesianGrid,
   Legend,
   Line,
-  LineChart,
-  Pie,
-  PieChart,
-  ResponsiveContainer,
+  LineChart, ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis
@@ -59,43 +54,6 @@ const Dashboard = () => {
             </ResponsiveContainer>
           </div>
           <div className="col-md-6">
-            <h2 className="chart-title text-center my-4">Investment and Revenue Report</h2>
-            <ResponsiveContainer width="100%" height={500}>
-              <AreaChart
-                width={500}
-                height={400}
-                data={chart}
-                margin={{
-                  top: 10,
-                  right: 30,
-                  left: 0,
-                  bottom: 0,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Area
-                  type="monotone"
-                  dataKey="investment"
-                  stackId="1"
-                  stroke="#8884d8"
-                  fill="#8884d8"
-                />
-                <Area
-                  type="monotone"
-                  dataKey="revenue"
-                  stackId="1"
-                  stroke="#82ca9d"
-                  fill="#82ca9d"
-                />
-              </AreaChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-6">
             <h2 className="chart-title text-center my-4">Investment Report in BarChart</h2>
             <ResponsiveContainer width="100%" height={500}>
               <BarChart
@@ -119,32 +77,11 @@ const Dashboard = () => {
               </BarChart>
             </ResponsiveContainer>
           </div>
-          <div className="col-md-6">
-            <h2 className="chart-title text-center my-4">Pie Chart</h2>
-            <ResponsiveContainer width="100%" height={500}>
-              <PieChart width={400} height={400}>
-                <Pie
-                  data={chart}
-                  dataKey="investment"
-                  cx="50%"
-                  cy="50%"
-                  outerRadius={60}
-                  fill="#8884d8"
-                />
-                <Pie
-                  data={chart}
-                  dataKey="revenue"
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={70}
-                  outerRadius={90}
-                  fill="#82ca9d"
-                  label
-                />
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
+          
+        </div>
+        <div className="row">
+         
+          
         </div>
       </div>
     </div>
